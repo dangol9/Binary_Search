@@ -83,7 +83,6 @@ class Window(QMainWindow):
 
                 self.start = False
 
-                self.result.setFont(QFont('Helvetica [Cronyx]', 15))
                 self.result.setStyleSheet("background : red;")
                 self.result.setText("Not Found")
 
@@ -92,7 +91,6 @@ class Window(QMainWindow):
 
                 self.start = False
                 num = self.desired
-                self.result.setFont(QFont('Helvetica [Cronyx]', 15))
                 self.result.setStyleSheet("background : green;")
                 self.result.setText(f"Found number {num} at index : " + str(self.mid))
 
